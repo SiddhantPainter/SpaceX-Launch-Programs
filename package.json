@@ -1,17 +1,18 @@
 {
   "name": "spacex-launch-programs",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "0.9.5"
-  },
-  "devDependencies": {},
+  "description": "All launches by SpaceX.",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.3.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "author": "siddhantpainter",
+  "license": "MIT"
 }

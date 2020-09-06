@@ -1,0 +1,33 @@
+.headerContainer {
+    color: #171716;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.header {
+    font-size: 13px;
+    padding-left: 30px;
+    padding-right: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headerTitlePart {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    word-spacing: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .headerContainer {
+        padding: 15px;
+    }
+
+    .header {
+        font-size: 20px;
+    }
+
+    .headerTitlePart {
+        font-size: 27px;
+    }
+}
